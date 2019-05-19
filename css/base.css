@@ -1,0 +1,50 @@
+.container-fluid{
+	
+		width: 100%;
+		background-color: lightgray;
+		height: 85%;
+	/*	color: aliceblue;*/
+}
+.navbar-brand{
+/*	background-color: dimgray;*/
+}
+
+/* css za to top button*/
+#myBtn {
+	  display: none; /* Hidden by default */
+	  position: fixed; /* Fixed/sticky position */
+	  bottom: 20px; /* Place the button at the bottom of the page */
+	  right: 20px; /* Place the button 30px from the right */
+	  z-index: 99; /* Make sure it does not overlap */
+	  border: none; /* Remove borders */
+	  outline: none; /* Remove outline */
+	  background-color: dodgerblue; /* Set a background color */
+	  color: white; /* Text color */
+	  cursor: pointer; /* Add a mouse pointer on hover */
+	  padding: 15px; /* Some padding */
+	  border-radius: 15px; /* Rounded corners */
+	  font-size: 18px; /* Increase font size */
+	}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+body {	
+	background-color: cornsilk;
+	background-image: url('slike/ppp.jpg');
+	height: 1000px; 
+/*	width: auto;*/
+    /* Center and scale the image nicely */
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+form{
+	text-align: center;
+	margin-top: 15px;
+}
+.rezz{
+	text-align: center;
+	font-size: 20px;
+}

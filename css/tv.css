@@ -1,0 +1,279 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    background-color:  cadetblue;
+    padding: 20px; 
+}
+.centralni {
+    width: 80%; /* smanjio sam na 80% radi lepseg izgleda*/
+    background: white;
+	margin: auto; /* centrira sve divove*/
+}  
+.header {
+    width: 100%;
+    height: 100px;
+    padding: 20px;
+    background: white;
+    float: left;
+}
+.navbar {
+    width: 100%;
+    height: 40px;
+    background-color: green;
+    float: left;
+    overflow: hidden;
+    font-family: sans-serif;
+}
+.traka {
+    width: 100%;
+    height: 30px;
+    background-color: black;
+    float: left;
+}
+/* header elementi*/
+.login a {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    font-size: 17px;
+    padding: 5px;   
+}
+.login ul {
+    display: inline;
+    margin: 0;
+    padding: 0;       
+}
+.login ul li {
+    display: inline-block;
+}
+.login ul li:hover ul {
+    display: block;
+}
+.login ul li ul {
+    position: absolute;
+    width: 200px;
+    display: none;   
+}
+.prvi a {
+    width: 200px;
+    height: 40px;
+    background-color: green;
+    border-left: solid green;
+    border-top: solid green;
+    border-right: solid green;
+    color: white;
+    text-align: center;
+    font-family:  sans-serif;
+}
+.poslednji a {
+    width: 200px;
+    height: 40px;
+    background-color: white;
+    border-left: solid green;
+    border-right: solid green;
+    border-bottom: solid green;
+    text-decoration: underline;
+    color: darkslategrey;
+    text-align: center;
+    font-family:  sans-serif;   
+}
+.emptiness {
+    width: 200px;
+    border: solid green;
+    color: darkslategrey;
+    text-align: center;
+    font-size: 17px;
+    font-family:  sans-serif;
+    background-color: white;   
+}
+
+.logo {
+    float: left;
+    height: 60px;
+}
+.search {
+    float: left;
+    width: 60%;
+    padding-left: 50px;
+    
+}
+.login {
+    float: left;
+    width: 20%;
+    padding-top: 10px;
+    
+}
+.box {
+    height: 50px;
+    width: 80%; 
+    float: left;
+    border-color: lightgrey;
+    border-width: 1px;
+}
+.srchbtn {
+    height: 50px;
+    width: 50px;
+    background: green;
+    border: none;
+    padding-top: 5px;
+    float: left;   
+}
+.nalog {
+    float: left;
+    width: 70%;   
+}
+.korpa {
+    float: left;
+    width: 20%;
+}
+.mnlg {
+    padding-left:  10px;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: darkslategrey;
+    
+}
+.trakastatus {
+    padding-left: 20px;
+   
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-align: left;
+}
+/* padajuci meni */
+.zuti {
+    color: yellow;
+}
+.dropdown{
+    float: left;
+    overflow: hidden;
+    width: 300px;
+    height: 100%;
+     
+}
+.dropdown .dropbtn {
+    font-size: 20px;
+    text-align: left;
+    padding-left: 20px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    color: black;
+    background-color: yellow;
+    font-family: inherit;
+    width: 100%; 
+    height: 100%;   
+}
+.dropLinkovi {
+    display: none;
+    position: absolute;
+    background-color: lightcyan;
+    width: 300px;
+    z-index: 1;
+}
+.dropLinkovi a {
+    float: none;
+    color: black;
+    padding: 10px;
+    display: block;
+    text-align: left;
+    text-decoration: none;      
+}
+.dropdown:hover .dropLinkovi {
+    display: block;
+}
+/* linkovi u traci */
+.dropLinkovi a:hover {
+    background-color: gray;
+}
+.navbar .meniULiniji {
+    float: left;
+    padding: 10px; 
+}
+.navbar .meniULiniji a {
+    color: white;
+    text-decoration: none;
+    font-style: inherit;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+    border-right: solid darkslategray thin;  
+}
+.meniULiniji a:hover {
+   border-top: solid  yellow;
+}
+ .call {
+    float: right;
+    padding-right: 10px;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    
+}
+.sluska {
+    color: yellowgreen;
+    padding-top:10px;    
+}
+.leviCentar {
+    
+    width: 25%;
+    height: 500px;
+    background-color: antiquewhite;
+    padding-top: 10px;
+    float: left;  
+}
+.filter {
+   padding-top: 20px;
+   font-family: sans-serif;   
+}
+.proizvodjac {  
+    padding-top: 20px;
+    list-style: none;
+    color: darkslategrey;
+    text-decoration: none;   
+}
+.proizvodjac li a {
+    color: darkslategrey;
+    text-decoration: none;
+}
+.proizvodjac li a:hover {
+    text-decoration: underline;
+}
+.desniCentar{
+    width: 75%;
+    background-color: white;
+    float: right;
+	border: 1px solid; /*dodato radi preglednosti*/
+}
+.slika {
+    float: left;
+    padding-left: 20px;
+}
+.productDetails {
+    float: left;
+    padding-left: 20px;   
+	width: auto;
+}
+.tipTV {
+    float: left;  
+}
+
+.detalji {
+    float: left;
+    padding-left: 20px;
+	width: auto;
+	margin: auto; /*centrira divove*/
+    
+}
+
+.cenaProizvoda {
+   
+    float: right;
+    bottom: 50px;
+}
